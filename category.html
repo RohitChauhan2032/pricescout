@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compare smartphones side by side — 1,240 phones with verified specs and current prices on PriceScout.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="category.css">
+    <title>Mobiles – Compare Smartphones | PriceScout</title>
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">P</span>
+            <span class="logo-text">PriceScout</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Discover</a>
+            <a href="category.html" class="active">Categories</a>
+            <a href="#">Today's deals</a>
+            <a href="article.html">Buying guides</a>
+        </nav>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <span>⌕</span>
+                <input type="text" placeholder="Search products" id="search-input">
+            </div>
+            <label for="menu-toggle" class="hamburger">☰</label>
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <nav class="mobile-menu">
+            <div class="mobile-search">
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input type="text" placeholder="Search products">
+                </div>
+            </div>
+            <a href="index.html">Discover</a>
+            <a href="category.html" class="active">Categories</a>
+            <a href="#">Today's deals</a>
+            <a href="article.html">Buying guides</a>
+        </nav>
+    </header>
+
+
+    <!-- ===== BREADCRUMB ===== -->
+    <p class="breadcrumb">
+        <a href="index.html">Home</a> / <a href="#">Mobiles</a>
+    </p>
+
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <span class="tag">MOBILES</span>
+        <h1>Compare smartphones</h1>
+        <p class="desc">1,240 phones with verified specs and current prices.</p>
+    </section>
+
+
+    <!-- ===== QUICK FILTERS ===== -->
+    <div class="quick-filters">
+        <button class="qf-chip active" id="qf-5g">5G phones</button>
+        <button class="qf-chip" id="qf-under20k">Under ₹20K</button>
+        <button class="qf-chip" id="qf-camera">Camera</button>
+        <button class="qf-chip" id="qf-gaming">Gaming</button>
+        <button class="qf-chip" id="qf-battery">Big battery</button>
+    </div>
+
+
+    <!-- ===== MAIN LAYOUT ===== -->
+    <div class="main-layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar-filters">
+            <h2 class="sidebar-title">Filters</h2>
+
+            <div class="filter-group">
+                <h3 class="filter-label">Price range</h3>
+                <label class="filter-option"><input type="checkbox" id="filter-price-popular"> Popular choice</label>
+                <label class="filter-option"><input type="checkbox" id="filter-price-top"> Top rated</label>
+            </div>
+
+            <div class="filter-group">
+                <h3 class="filter-label">Brand</h3>
+                <label class="filter-option"><input type="checkbox" id="filter-brand-popular"> Popular choice</label>
+                <label class="filter-option"><input type="checkbox" id="filter-brand-top"> Top rated</label>
+            </div>
+
+            <div class="filter-group">
+                <h3 class="filter-label">Customer rating</h3>
+                <label class="filter-option"><input type="checkbox" id="filter-rating-popular"> Popular choice</label>
+                <label class="filter-option"><input type="checkbox" id="filter-rating-top"> Top rated</label>
+            </div>
+
+            <div class="filter-group">
+                <h3 class="filter-label">RAM</h3>
+                <label class="filter-option"><input type="checkbox" id="filter-ram-popular"> Popular choice</label>
+                <label class="filter-option"><input type="checkbox" id="filter-ram-top"> Top rated</label>
+            </div>
+
+            <div class="filter-group">
+                <h3 class="filter-label">Storage</h3>
+                <label class="filter-option"><input type="checkbox" id="filter-storage-popular"> Popular choice</label>
+                <label class="filter-option"><input type="checkbox" id="filter-storage-top"> Top rated</label>
+            </div>
+        </aside>
+
+
+        <!-- Product Grid -->
+        <section class="product-grid" id="product-grid">
+
+            <!-- Card 1 -->
+            <article class="product-card" id="card-nothing-3a">
+                <div class="card-image">
+                    <span class="badge badge-green">Best overall</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score score-green">92</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">Nothing Phone (3a)</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="price">₹24,999</span>
+                        </div>
+                        <span class="store-badge flipkart">Flipkart</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare" id="compare-nothing-3a">Compare</button>
+                        <a href="product.html" class="btn-deals" id="deals-nothing-3a">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="product-card" id="card-oneplus-nord4">
+                <div class="card-image">
+                    <span class="badge badge-orange">Performance pick</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score score-green">90</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">OnePlus Nord 4</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="price">₹27,999</span>
+                        </div>
+                        <span class="store-badge amazon">Amazon</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare" id="compare-oneplus-nord4">Compare</button>
+                        <a href="product.html" class="btn-deals" id="deals-oneplus-nord4">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="product-card" id="card-moto-edge60">
+                <div class="card-image">
+                    <span class="badge badge-blue">Best display</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score score-blue">88</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">Motorola Edge 60</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="price">₹22,999</span>
+                        </div>
+                        <span class="store-badge flipkart">Flipkart</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare" id="compare-moto-edge60">Compare</button>
+                        <a href="product.html" class="btn-deals" id="deals-moto-edge60">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="product-card" id="card-samsung-a56">
+                <div class="card-image">
+                    <span class="badge badge-teal">Reliable pick</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score score-blue">87</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">Samsung Galaxy A56</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="price">₹29,999</span>
+                        </div>
+                        <span class="store-badge amazon">Amazon</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare" id="compare-samsung-a56">Compare</button>
+                        <a href="product.html" class="btn-deals" id="deals-samsung-a56">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="product-card" id="card-nothing-3a-2">
+                <div class="card-image">
+                    <span class="badge badge-green">Best overall</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score score-green">92</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">Nothing Phone (3a)</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="price">₹24,999</span>
+                        </div>
+                        <span class="store-badge flipkart">Flipkart</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare" id="compare-nothing-3a-2">Compare</button>
+                        <a href="product.html" class="btn-deals" id="deals-nothing-3a-2">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="product-card" id="card-oneplus-nord4-2">
+                <div class="card-image">
+                    <span class="badge badge-orange">Performance pick</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score score-green">90</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">OnePlus Nord 4</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="price">₹27,999</span>
+                        </div>
+                        <span class="store-badge amazon">Amazon</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare" id="compare-oneplus-nord4-2">Compare</button>
+                        <a href="product.html" class="btn-deals" id="deals-oneplus-nord4-2">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </div>
+
+</body>
+
+</html>

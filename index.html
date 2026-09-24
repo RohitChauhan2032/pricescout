@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceScout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="navbar">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">P</span>
+                <span class="logo-text">PriceScout</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html" class="active">Discover</a>
+                <a href="category.html">Categories</a>
+                <a href="#">Today's deals</a>
+                <a href="article.html">Buying guides</a>
+            </nav>
+
+            <div class="nav-right">
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input type="text" placeholder="Search products" id="search-input">
+                </div>
+                <label for="menu-toggle" class="hamburger">☰</label>
+            </div>
+
+            <input type="checkbox" id="menu-toggle">
+            <nav class="mobile-menu">
+                <div class="mobile-search">
+                    <div class="search-box">
+                        <span>⌕</span>
+                        <input type="text" placeholder="Search products">
+                    </div>
+                </div>
+                <a href="index.html" class="active">Discover</a>
+                <a href="category.html">Categories</a>
+                <a href="#">Today's deals</a>
+                <a href="article.html">Buying guides</a>
+            </nav>
+        </div>
+
+
+        <div class="hero">
+
+            <div>
+                <span class="tag">AMAZON + FLIPKART, ONE CLEAR VIEW</span>
+                <h1 class="hero-h1">Find the right product.
+                    <span><br> Not just the lowest price.</span>
+                </h1>
+                <p class="subtitle">Compare specifications, ratings and live offers.</p>
+            </div>
+
+            <div class="hero-search">
+                <div class="hero-search-bar">
+                    <span>⌕</span>
+                    <input type="text" placeholder="Best phones under ₹30,000">
+                    <button>Search</button>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section class="curated">
+
+        <span class="tag">CURATED FOR YOU</span>
+        <h2 class="curated-title">Best phones under ₹30,000</h2>
+        <p class="curated-sub">Balanced picks for camera, battery and performance.</p>
+
+        <div class="card-grid">
+
+            <!-- Card 1 -->
+            <article class="card">
+                <div class="card-image">
+                    <span class="badge">Best overall</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score">92</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">Nothing Phone (3a)</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <hr class="card-divider">
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="card-price">₹24,999</span>
+                        </div>
+                        <span class="store-badge flipkart">Flipkart</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare">Compare</button>
+                        <a href="product.html" class="btn-deals">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card">
+                <div class="card-image">
+                    <span class="badge">Performance pick</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score">90</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">OnePlus Nord 4</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <hr class="card-divider">
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="card-price">₹27,999</span>
+                        </div>
+                        <span class="store-badge amazon">Amazon</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare">Compare</button>
+                        <a href="product.html" class="btn-deals">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card">
+                <div class="card-image">
+                    <span class="badge">Best display</span>
+                    <div class="phone-mini">
+                        <div class="phone-mini-screen">
+                            <div class="mini-notch"></div>
+                            <div class="mini-glyph"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="score-row">
+                        <span class="score">88</span>
+                        <span class="score-label">Scout score</span>
+                    </div>
+                    <h3 class="card-title">Motorola Edge 60</h3>
+                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
+                    <hr class="card-divider">
+                    <div class="price-row">
+                        <div>
+                            <span class="price-label">Best price</span>
+                            <span class="card-price">₹22,999</span>
+                        </div>
+                        <span class="store-badge flipkart">Flipkart</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn-compare">Compare</button>
+                        <a href="product.html" class="btn-deals">View deals</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

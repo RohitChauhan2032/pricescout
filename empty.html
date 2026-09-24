@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No products found – PriceScout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="empty.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">P</span>
+            <span class="logo-text">PriceScout</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Discover</a>
+            <a href="category.html">Categories</a>
+            <a href="#">Today's deals</a>
+            <a href="article.html">Buying guides</a>
+        </nav>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <span>⌕</span>
+                <input type="text" placeholder="Search products">
+            </div>
+            <label for="menu-toggle" class="hamburger">☰</label>
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <nav class="mobile-menu">
+            <div class="search-box">
+                <span>⌕</span>
+                <input type="text" placeholder="Search products">
+            </div>
+            <a href="index.html">Discover</a>
+            <a href="category.html">Categories</a>
+            <a href="#">Today's deals</a>
+            <a href="article.html">Buying guides</a>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <p class="breadcrumb">
+        <a href="index.html">Home</a> / Search results
+    </p>
+
+    <!-- Empty State -->
+    <main class="empty-state">
+        <div class="icon-circle">⌕</div>
+        <h1>No products found</h1>
+        <p>We couldn’t find products matching your search.<br>Try a broader term or remove a filter.</p>
+        <a href="category.html" class="btn">Clear filters</a>
+    </main>
+
+</body>
+</html>
