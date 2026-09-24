@@ -221,6 +221,18 @@ body {
     padding: 12px;
 }
 
+.product-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-link:hover .product-name {
+    color: #2457E6;
+}
+
 /* Product Header Row (First Row) */
 .compare-row.row-product {
     min-height: 230px;
