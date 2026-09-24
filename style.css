@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+/* Global Reset & Base Setup */
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +9,12 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #fff;
+    background: #ffffff;
     color: #172554;
     -webkit-font-smoothing: antialiased;
 }
 
-
-/* ==========  NAVBAR  ========== */
-
+/* Header & Main Navigation */
 .navbar {
     height: 72px;
     padding: 0 86px;
@@ -24,7 +23,7 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid #e4e7ec;
     position: relative;
-    background: #fff;
+    background: #ffffff;
     z-index: 50;
 }
 
@@ -42,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #2457E6, #06B6D4);
-    color: #fff;
+    color: #ffffff;
     border-radius: 11px;
     font-weight: 800;
     font-size: 17px;
@@ -107,7 +106,7 @@ body {
 
 .search-box:focus-within {
     border-color: #2457E6;
-    box-shadow: 0 0 0 3px rgba(36, 87, 230, .08);
+    box-shadow: 0 0 0 3px rgba(36, 87, 230, 0.08);
 }
 
 .search-box span {
@@ -128,6 +127,7 @@ body {
     color: #667085;
 }
 
+/* Mobile Hamburger Toggle */
 #menu-toggle {
     display: none;
 }
@@ -151,6 +151,7 @@ body {
     display: none;
 }
 
+/* Section Sub-labels */
 .tag {
     font-size: 12px;
     font-weight: 800;
@@ -158,6 +159,7 @@ body {
     letter-spacing: 0.5px;
 }
 
+/* Hero Section */
 .hero {
     display: flex;
     align-items: center;
@@ -187,6 +189,7 @@ body {
     line-height: 1.55;
 }
 
+/* Large Hero Search Box */
 .hero-search {
     background: #0f1b3d;
     border-radius: 20px;
@@ -197,7 +200,7 @@ body {
 .hero-search-bar {
     display: flex;
     align-items: center;
-    background: #fff;
+    background: #ffffff;
     border-radius: 12px;
     padding: 6px 6px 6px 18px;
     gap: 10px;
@@ -226,22 +229,21 @@ body {
 .hero-search-bar button {
     padding: 10px 22px;
     background: #2457E6;
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 700;
     font-family: inherit;
     cursor: pointer;
+    transition: background 0.2s ease;
 }
 
 .hero-search-bar button:hover {
     background: #1a44c4;
 }
 
-
-/* ==========  CURATED SECTION  ========== */
-
+/* Curated Phones Section */
 .curated {
     padding: 48px 86px 80px;
 }
@@ -267,9 +269,7 @@ body {
     gap: 52px 28px;
 }
 
-
-/* ==========  PRODUCT CARD  ========== */
-
+/* Product Cards */
 @keyframes cardEntrance {
     0% {
         opacity: 0;
@@ -284,7 +284,7 @@ body {
 .card {
     border: 1.5px solid #cbd5e1;
     border-radius: 20px;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
     position: relative;
     transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -301,9 +301,7 @@ body {
     box-shadow: 0 20px 35px -8px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(36, 87, 230, 0.2);
 }
 
-
-/* --- Card Image Area --- */
-
+/* Card Header Preview Area */
 .card-image {
     position: relative;
     background: linear-gradient(180deg, #f3f6fb 0%, #eaeff8 100%);
@@ -323,19 +321,17 @@ body {
     font-weight: 700;
     padding: 6px 18px;
     border-radius: 999px;
-    color: #fff;
+    color: #ffffff;
     background: #172554;
     z-index: 2;
     letter-spacing: 0.2px;
 }
 
-
-/* --- Phone Mini Illustration --- */
-
+/* Phone Mockup Graphic */
 .phone-mini {
     width: 96px;
     height: 176px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 20px;
     border: 2.5px solid #cbd5e1;
     display: flex;
@@ -372,9 +368,7 @@ body {
     opacity: 0.85;
 }
 
-
-/* --- Card Body --- */
-
+/* Card Content & Details */
 .card-body {
     padding: 22px 24px 0 24px;
 }
@@ -417,9 +411,7 @@ body {
     margin: 0;
 }
 
-
-/* --- Price Row --- */
-
+/* Price & Retailer Row */
 .price-row {
     display: flex;
     justify-content: space-between;
@@ -453,9 +445,7 @@ body {
     color: #ea580c;
 }
 
-
-/* --- Card Actions --- */
-
+/* Action Buttons (Straddling bottom border) */
 .card-actions {
     display: flex;
     gap: 12px;
@@ -524,9 +514,7 @@ body {
     transform: translateY(0) scale(0.98);
 }
 
-
-/* ==========  RESPONSIVE  ========== */
-
+/* Responsive Media Queries */
 @media (max-width: 1100px) {
     .navbar {
         padding-left: 40px;
@@ -595,7 +583,7 @@ body {
         width: 100%;
         display: none;
         flex-direction: column;
-        background: #fff;
+        background: #ffffff;
         border-bottom: 1px solid #e5e7eb;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
         z-index: 100;
@@ -619,7 +607,7 @@ body {
         color: #2457E6;
     }
 
-    #menu-toggle:checked~.mobile-menu {
+    #menu-toggle:checked ~ .mobile-menu {
         display: flex;
     }
 
