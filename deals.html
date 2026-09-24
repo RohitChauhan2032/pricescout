@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saved Products – PriceScout</title>
+    <title>Today's Deals – PriceScout</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="saved.css">
+    <link rel="stylesheet" href="deals.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <nav class="nav-links">
             <a href="index.html">Discover</a>
             <a href="category.html">Categories</a>
-            <a href="deals.html">Today's deals</a>
+            <a href="deals.html" class="active">Today's deals</a>
             <a href="guides.html">Buying guides</a>
         </nav>
 
@@ -43,28 +43,34 @@
             </div>
             <a href="index.html">Discover</a>
             <a href="category.html">Categories</a>
-            <a href="deals.html">Today's deals</a>
+            <a href="deals.html" class="active">Today's deals</a>
             <a href="guides.html">Buying guides</a>
         </nav>
     </header>
 
     <!-- Breadcrumb -->
     <p class="breadcrumb">
-        <a href="index.html">Home</a> / <span>Saved products</span>
+        <a href="index.html">Home</a> / <span>Today's deals</span>
     </p>
 
-    <!-- Page Header / Shortlist Hero -->
-    <section class="shortlist-header">
-        <div class="header-content">
-            <span class="tag">YOUR SHORTLIST</span>
-            <h1 class="page-title">Saved products</h1>
-            <p class="page-desc">Keep promising products in one place and compare when ready.</p>
+    <!-- Deals Hero Banner -->
+    <section class="deals-hero-container">
+        <div class="deals-hero-banner">
+            <div class="banner-left">
+                <span class="banner-tag">LIMITED-TIME SAVINGS</span>
+                <h1 class="banner-title">Today's best tech deals</h1>
+                <p class="banner-subtitle">Genuine price drops checked against price history.</p>
+            </div>
+            <div class="banner-discount-badge">
+                <span>UP TO 42%</span>
+            </div>
         </div>
-        <a href="compare.html" class="btn-compare-selected">Compare selected</a>
     </section>
 
-    <!-- Saved Products Grid (4 Cards) -->
-    <main class="saved-container">
+    <!-- Deals Products Section -->
+    <main class="deals-container">
+        <h2 class="deals-section-title">Top verified deals</h2>
+
         <div class="card-grid">
 
             <!-- Card 1: Nothing Phone (3a) -->
@@ -155,38 +161,6 @@
                             <span class="card-price">₹22,999</span>
                         </div>
                         <span class="store-badge flipkart">Flipkart</span>
-                    </div>
-                    <div class="card-actions">
-                        <a href="compare.html" class="btn-compare">Compare</a>
-                        <a href="product.html" class="btn-deals">View deals</a>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Card 4: Samsung Galaxy A56 -->
-            <article class="card">
-                <div class="card-image">
-                    <span class="badge">Reliable pick</span>
-                    <div class="phone-mini">
-                        <div class="phone-mini-screen">
-                            <div class="mini-notch"></div>
-                            <div class="mini-glyph"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="score-row">
-                        <span class="score">87</span>
-                        <span class="score-label">Scout score</span>
-                    </div>
-                    <h3 class="card-title">Samsung Galaxy A56</h3>
-                    <p class="card-specs">8GB · 128GB · 50MP OIS</p>
-                    <div class="price-row">
-                        <div>
-                            <span class="price-label">Best price</span>
-                            <span class="card-price">₹29,999</span>
-                        </div>
-                        <span class="store-badge amazon">Amazon</span>
                     </div>
                     <div class="card-actions">
                         <a href="compare.html" class="btn-compare">Compare</a>
